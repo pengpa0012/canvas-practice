@@ -1,0 +1,29 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container{
+  max-width: 1600px;
+  margin: 0 auto;
+}
+
+.loader{
+  display: grid;
+  place-items: center;
+  min-height: 100vh;
+}
+
+.loader h1 {
+  font-size: 3rem;
+}
+
+#canvas {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 600px;
+  height: 600px;
+}
